@@ -3,6 +3,8 @@ name: "ShellCheck"
 on:
   push:
     branches: [master]
+    paths:
+      - update-cf-ip.sh
   workflow_dispatch:
 
 jobs:
